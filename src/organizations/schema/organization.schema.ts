@@ -2,7 +2,7 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import mongoose from 'mongoose';
 import { ContactInfo } from '../../contact-infos/schema/contact-info.schema';
 import { Location } from '../../locations/schema/location.schema';
-import { Moderator } from '../../moderators/schema/moderator.schema';
+import { Moderator } from '../../users/schema/moderator.schema';
 
 @Schema({ timestamps: true, collection: 'organizations' })
 export class Organization {

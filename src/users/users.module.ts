@@ -17,4 +17,4 @@ import { Moderator, ModeratorSchema } from './schema/moderator.schema';
     ConfigModule,
   ],
 })
-export class ModeratorsModule {}
+export class UsersModule {}
